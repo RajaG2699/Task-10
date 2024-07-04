@@ -1,21 +1,3 @@
-# import os
-# from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.chrome.service import Service
-# # from webdriver_manager.chrome import ChromeDriverManager
-#
-# driver_path = r"C:\Users\Raja\Desktop\chromedriver.exe"
-# os.environ["PATH"] += os.pathsep + os.path.dirname(driver_path)
-#
-# chrome_options = Options()
-#
-# chrome_options.add_experimental_option("detach", True)
-# driver = webdriver.Chrome(options=chrome_options)
-# # Initialize Chrome driver (you may need to adjust this based on your setup)
-# # options = webdriver.ChromeOptions()
-# # options.add_argument("--headless")  # Run in headless mode, remove for visual testing
-# # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-
 import os
 import time
 
